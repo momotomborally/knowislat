@@ -1,0 +1,233 @@
+:root {
+    --primario: #FFC857;
+    --secundario: #145267;
+    --gris: #f5f5f5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#303030;
+}
+
+p {
+    font-weight: 100;
+    line-height: 3.4rem;
+    font-size: 1.2rem;
+}
+
+.badge-secondary {
+    background-color: white!important;
+    color: black;
+}
+
+.parrafo1{
+    color:black;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.parrafo2{
+    color:white;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.imagen > div{
+    height: 30rem;
+}
+@media (min-width:768px) {
+    .imagen > div{
+        height: 45rem;
+    }
+}
+.bg-primary {
+    background-color: #FFC857!important;
+}
+.bg-secondary {
+    background-color: #145267!important;
+}
+.bg-principal1 {
+    background-image: url(../img/principal1.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.bg-principal2 {
+    background-image: url(../img/principal2.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.imagen-superior .contenido{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.imagen-inferior .bg-principal2 {
+    order: 1;
+}
+@media (min-width:768px) {
+    .imagen-inferior .bg-principal2 {
+        order: unset;
+    }
+}
+.imagen-inferior .contenido {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.imagen .contenido p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+.separador::after {
+    content:'';
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/separador.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.nosotros .informacion h3 {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+
+.clases {
+    background-color: #f5f5f5;
+}
+.card {margin-bottom: 2rem;}
+.card-meta span {
+    font-weight: 700;
+}
+
+.card-title {
+    color: #4094F8;
+    font-weight: 400;
+    text-align: center;
+}
+.card-body p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.card-body a {
+    color: #4094F8;
+}
+
+.Contactenos {
+    background-image: url(../img/finalbot.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(0,0,0,.3); /* Ultima Transp */
+    background-blend-mode: darken;  
+}
+.Contactenos .row{
+    height: 38rem;
+}
+.Contactenos .contenido h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.Contactenos .contenido p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+.btn-primary {
+    background-color: #4094F8;
+    border-color:#4094F8;
+}
+.btn-primary:hover {
+    background-color: #4094F8;
+    border-color: #4094F8;
+}
+.footer {
+    border-bottom: 10px solid #4094F8;
+}
+
+.nav-link {
+    color: black;
+    text-transform: uppercase;
+}
+.copyright {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+footer{
+     background-color:white;
+     padding:30px 0px;
+}	       
+
+.address span , .menu span{
+   color:black; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 20px;
+   letter-spacing: 3px;
+}
+ 
+.address li a , .menu li a{
+    color:black;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #4094F8;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #4094F8;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+.telefono{
+padding-left: 45px;
+padding-top: 5px;
+background: url(/img/footer/telef.svg)  center left no-repeat;
+}
+
+.mapa{
+padding-left: 45px;
+padding-top: 5px;
+background: url(/img/footer/map.svg)  center left no-repeat;
+}
+
+.correo{
+padding-left: 45px;
+padding-top: 5px;
+background: url(/img/footer/email.svg)  center left no-repeat;
+}
+
+.copyright{
+    color: white;
+}
+
+h4{
+font-weight: bold;
+}
+
+.estrategaparrafo{
+    text-align: justify;
+    text-justify: inter-word;
+
+    }
+    
